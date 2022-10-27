@@ -24,6 +24,8 @@ var settings = new KuduApiClientSettings()
 };
 
 var client = KuduApiClientFactory.Create(settings);
+
+var webJobs = await client.WebJobs.GetAll();
 ```
 
 ## Endpoints
