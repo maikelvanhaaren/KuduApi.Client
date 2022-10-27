@@ -24,25 +24,31 @@ var settings = new KuduApiClientSettings()
 };
 
 var client = KuduApiClientFactory.Create(settings);
-
-var webjobs = await client.WebJobs.GetAll();
-
-var commandResponse = await client.Commands
-    .Execute(new KuduCommandRequest() {
-        Command = "echo Hello World",
-        Directory = "site\\repository"
-    });
-
-var deployments = await client.Deployments.GetAll();
-
-var environment = await client.Environment.Get();
-
-// And more...
 ```
+
+## Endpoints
+
+Not all endpoints are currently implemented.
+
+- [x] [Commands](https://github.com/projectkudu/kudu/wiki/REST-API#command) ([interface](./KuduApi.Client.Abstractions/Commands/IKuduCommandApiClient.cs))
+- [x] [Environment](https://github.com/projectkudu/kudu/wiki/REST-API#environment) ([interface](./KuduApi.Client.Abstractions/Environment/IKuduEnvironmentApiClient.cs))
+- [x] [WebJobs API\*](https://github.com/projectkudu/kudu/wiki/WebJobs-API) ([interface](./KuduApi.Client.Abstractions/WebJobs/IKuduWebJobApiClient.cs))
+- [x] [Deployments\*](https://github.com/projectkudu/kudu/wiki/REST-API#deployment) ([interface](./KuduApi.Client.Abstractions/Deployments/IKuduDeploymentApiClient.cs))
+- [ ] [scm](https://github.com/projectkudu/kudu/wiki/REST-API#scm)
+- [ ] [VFS](https://github.com/projectkudu/kudu/wiki/REST-API#vfs)
+- [ ] [Zip](https://github.com/projectkudu/kudu/wiki/REST-API#zip)
+- [ ] [Zip Deployment](https://github.com/projectkudu/kudu/wiki/REST-API#zip-deployment)
+- [ ] [SSHKey](https://github.com/projectkudu/kudu/wiki/REST-API#sshkey)
+- [ ] [Settings](https://github.com/projectkudu/kudu/wiki/REST-API#settings)
+- [ ] [Diagnostics](https://github.com/projectkudu/kudu/wiki/REST-API#diagnostics)
+- [ ] [Diagnostics/Settings](https://github.com/projectkudu/kudu/wiki/REST-API#diagnosticssettings)
+- [ ] [SiteExtensions](https://github.com/projectkudu/kudu/wiki/REST-API#siteextensions)
+
+<small>\* Some endpoints are currently not implemented.</small>
 
 ## Roadmap
 
-If you want to see a new feature or new endpoint available feel free to create a new issue. Here are some features which are planned when there is enough enthusiasm for this NuGet package.
+If you want to see a new feature or new endpoint available feel free to create a new issue or pull request. Here are some features which are planned when there is enough enthusiasm for this NuGet package.
 
 - [x] Wrapper implemented for `/api/commands/`
 - [x] Wrapper implemented for `/api/environment/`
