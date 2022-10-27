@@ -2,6 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageProjectUrl>https://github.com/maikelvanhaaren/KuduApi.Client</PackageProjectUrl>
+        <Description>A .NET client wrapper for using the Kudu API with strong-typed requests and responses.</Description>
     </PropertyGroup>
 
     <ItemGroup>
