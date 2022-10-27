@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuduApi.Client", "KuduApi.Client\KuduApi.Client.csproj", "{EA99E8C7-EA8E-460B-8752-9CA84DB10D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuduApi.Client.Abstractions", "KuduApi.Client.Abstractions\KuduApi.Client.Abstractions.csproj", "{72E812B8-3D96-4E00-AD36-EEE27E7ECA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KuduApi.Client.Tests", "KuduApi.Client.Tests\KuduApi.Client.Tests.csproj", "{4CBB2180-0F01-40AB-9FD3-19A1ED22BFE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA99E8C7-EA8E-460B-8752-9CA84DB10D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA99E8C7-EA8E-460B-8752-9CA84DB10D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA99E8C7-EA8E-460B-8752-9CA84DB10D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA99E8C7-EA8E-460B-8752-9CA84DB10D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E812B8-3D96-4E00-AD36-EEE27E7ECA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E812B8-3D96-4E00-AD36-EEE27E7ECA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E812B8-3D96-4E00-AD36-EEE27E7ECA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E812B8-3D96-4E00-AD36-EEE27E7ECA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBB2180-0F01-40AB-9FD3-19A1ED22BFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBB2180-0F01-40AB-9FD3-19A1ED22BFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBB2180-0F01-40AB-9FD3-19A1ED22BFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBB2180-0F01-40AB-9FD3-19A1ED22BFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
