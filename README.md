@@ -44,7 +44,7 @@ Not all endpoints are currently implemented.
 - [ ] [Diagnostics/Settings](https://github.com/projectkudu/kudu/wiki/REST-API#diagnosticssettings)
 - [ ] [SiteExtensions](https://github.com/projectkudu/kudu/wiki/REST-API#siteextensions)
 
-\* Some endpoints are currently not implemented.
+<small>\* Some endpoints are currently not implemented.</small>
 
 ## Roadmap
 
